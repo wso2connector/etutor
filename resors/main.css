@@ -1,0 +1,285 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+
+
+
+/*Pagination*/
+/*--------------*/
+div.pagination {
+width:100%;
+clear:both;
+padding:10px 0 10px 0;
+margin:0px;
+text-align:center;
+float:left;
+clear:both;
+font-size:11px;
+}
+
+div.pagination a {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #52bfea;
+text-decoration: none;
+color: #52bfea;
+}
+div.pagination a:hover, div.pagination a:active {
+border:1px solid #52bfea;
+color: #fff;
+background-color: #52bfea;
+}
+div.pagination strong {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #52bfea;
+background-color: #52bfea;
+color: #FFF;
+}
+div.pagination strong.disabled {
+padding: 2px 5px 2px 5px;
+margin-right: 2px;
+border: 1px solid #f3f3f3;
+color: #ccc;
+}
+
+
+/*Stripe table */
+.stable td{
+padding:2px 11px;
+border-bottom:1px solid #95bce2;
+}
+
+.stable .alt{
+background:#ecf6fc;
+}
+
+.stable .over{
+background:#bcd4ec;
+}
+
+
+
+#msg-wrapper .info,
+#msg-wrapper .success,
+#msg-wrapper .warning,
+#msg-wrapper .error {
+border: 1px solid;
+margin: 15px 0px;
+padding:10px 20px 5px 55px;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+text-shadow: 2px 2px 2px #ccc;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+#msg-wrapper .info {
+color: #00529B;
+background: #BDE5F8 url ('<?php echo base_url(); ?>rsnasna/images/icon-info.png') no-repeat 10px center;
+}
+#msg-wrapper .success {
+color: #4F8A10;
+background: #DFF2BF url('images/icon-tick.png') no-repeat 10px center;
+}
+#msg-wrapper .warning {
+color: #9F6000;
+background: #FEEFB3 url('images/icon-warning.png') no-repeat 10px center;
+}
+#msg-wrapper .error {
+color: #D8000C;
+background: #FFBABA url('images/icon-cross.png') no-repeat 10px center;
+}
+
+
+/*Title Bar*/
+#titlebar{
+    border:1px solid #3d5542;
+    display:block;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    -moz-box-shadow: 0 0 2px #888;
+    -webkit-box-shadow: 0 0 2px#888;
+    box-shadow: 0 0 2px #888;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#titlebar #title{
+    width:60%;
+    float:left;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+#titlebar #buttons{
+    width:38%;
+    float:right;
+    text-align:right;
+}
+
+.clear{
+    clear:both;
+}
+
+.action{
+    width:80px;
+}
+a{
+    border:none;
+    text-decoration:none;
+}
+img{
+    border:none;
+}
+
+/* Buttons */
+.ui_tab_btn{
+    display:block;
+    float:left;
+    margin-right:5px;
+    margin-bottom:5px;
+    
+}
+
+.ui_label_btn{
+   
+    float: left;
+}
+
+.ui_label_btn .btn_label{
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.ui_label_btn a:hover{
+   text-decoration: none;
+}
+
+.ui_label_btn span{
+    margin-left:5px;
+}
+
+
+/*Scroll pane*/
+#scroll-pane{
+overflow-x:auto;
+width:900px;
+}
+
+/* myform style */
+.myform {
+    border:1px solid #e1e1e5;
+    margin-top:10px;
+    font-size:12px;
+    font-family:'Segoe UI';
+    padding-top:10px;
+    text-align: center;
+}
+
+.myform legend{
+    margin:2px 10px 2px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#000033;
+}
+
+.myform  dl{
+    clear:both;
+    margin-bottom:10px;
+    position:relative;
+
+}
+
+.myform  dt{
+    float:left;
+    width:30%;
+    padding-left:50px;
+    text-align: left;
+}
+
+.myform  dd{
+    float:left;
+    width:60%;
+    text-align: left;
+    margin-left: -50px;
+}
+
+.myform  .submitbutton{
+	margin-left: 300px;
+	}
+.myform .required{
+    color:red;
+}
+
+ .ferror{
+    font-size:9px;
+    color:red;
+}
+.clear{
+    clear:both;
+}
+
+
+.left-col{
+    width: 45%;
+    float: left;
+}
+
+.right-col{
+    width: 45%;
+    float: right;
+}
+/*dynamic table */
+.dynamic{
+	margin-bottom:20px;
+	margin-top:20px;
+	margin-left:50px;
+	}
+
+
+.dynamic th{
+padding:2px 0px;
+border-bottom:0px solid #FFF;
+}
+
+.dynamic .alt{
+background:#FFF;
+}
+
+.dynamic .over{
+background:#FFF;
+}
+
+.dynamic thead th{
+    height:20px;
+    background:#FFF;
+    color:#000;
+    width: auto!important;
+}
+
+#login_page{
+    margin-left: 190px;
+    margin-top: 32px;
+}
+
+#ask_Question{
+    margin-left: 733px;
+}
+
+#ask_Question-home{
+    margin-left: 733px;
+    margin-top: -50px!important;
+}
+.logout{
+    margin-top: -22px;
+    margin-left: -190px;
+}
