@@ -60,6 +60,7 @@ class Question_list extends CI_Controller {
 						'sub_category_id' => '',
 						'subject' => '',
 						'post' => '',
+                        'tags' => '',
 						'username' => '',
 						'email' => '',
 						'usertype' => ''

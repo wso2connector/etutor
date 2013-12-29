@@ -1,4 +1,3 @@
-
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Search extends CI_Controller {
@@ -20,13 +19,13 @@ class Search extends CI_Controller {
     }
             
 
-    public function getlist()
+    public function questions()
     {
         $this->load->model('msearch');
-        if(isset($_POST['id']))
+        if(isset($_GET['id']))
         {
-            $id = $_POST['id'];
-            $this->data['result'] = $this->msearch->retrive($id);
+            $id = $_GET['id'];
+            $this->data['result'] = $this->msearch->retreive($id);
 
             //var_dump($this->data['result']);
         }

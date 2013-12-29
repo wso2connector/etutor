@@ -22,7 +22,7 @@ if(!isset($form_action)) $form_action = "new";
 	<div class="post-form">
 	<?php
 	$attributes = array(
-    'class' => 'ask_questiuon',
+    'class' => 'ask_question',
     'id' => '');
 	echo form_open('question/save' , $attributes);
 	?><br>
@@ -54,19 +54,23 @@ if(!isset($form_action)) $form_action = "new";
 		<input  type="date" id="date" name="date" value="" style="display:none;">
 	</div>
 	<div class="form-group">
-		<label for="post">Qusetion(Post)</label>
+		<label for="post">Question(Post)</label>
 		<textarea id="" rows="5" class="form-control-text contact-input" cols="20" name="post" value=""></textarea>
 	</div>
+    <div class="form-group">
+        <label for="tags">Tags (separate by commas)</label>
+        <textarea id="" rows="2" class="form-control-text contact-input" cols="20" name="tags" value=""></textarea>
+    </div>
 	<div class="form-group">
 		<label for="username">User Name</label>
-		<input id="" type="text" name="username" class="form-control contact-input" readonly style="border-color:#03F" value="<?php echo ucfirst($this->session->userdata('username'));?>">
+		<input id="" type="text" name="username" class="form-control contact-input" readonly style="border-color:#03F" value="<?php echo $this->session->userdata('username');?>">
 	</div>
 	<div class="form-group">
 		<label for="email">E-mail</label>
-		<input id="" type="text" name="email" class="form-control contact-input" readonly style="border-color:#03F" value="<?php echo ucfirst($this->session->userdata('email'));?>">
+		<input id="" type="text" name="email" class="form-control contact-input" readonly style="border-color:#03F" value="<?php echo $this->session->userdata('email');?>">
 	</div>
 	<div class="form-group">
-		<input id="" type="hidden" name="usertype" class="form-control contact-input" readonly style="border-color:#03F" value="<?php echo ucfirst($this->session->userdata('usertype'));?>">
+		<input id="" type="hidden" name="usertype" class="form-control contact-input" readonly style="border-color:#03F" value="<?php echo $this->session->userdata('usertype');?>">
 	</div>
 	<div class="form-group">
 		 <input id="btn-post" class="btn btn_login btn-primary btn-block" type="submit" value="Submit Discussion" name="Submit">

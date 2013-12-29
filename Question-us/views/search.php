@@ -1,16 +1,16 @@
 
 <div id="ask_Question-home">
 	<a href="<?php echo site_url()."/add_post/"; ?>">
-	<input id="askBtn_h" class="btn" type="submit" value="+Ask Qauestion" name="Submit"></a>
+	<input id="askBtn_h" class="btn" type="submit" value="+Ask Question" name="Submit"></a>
 
 		<?php
 		$attributes = array(
 	    'class' => '',
         'id' => ''); 
-        echo form_open('search/getlist'); 
+        echo form_open('search/questions');
         ?>
         <div id="search-box">
-       		<input type="text" id="tag" class="form-control contact-input" name ="id" value="" />
+       		<input type="text" id="tag" class="form-control contact-input" name ="query" value="" />
 			    <input type="submit" id="askBtn_s" class="btn" value = "Search" />
 		</div>
 

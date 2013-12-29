@@ -17,6 +17,6 @@ if(!isset($form_action)) $form_action = "new";
 	</div>
 	<div id="login-ask">
 		<h4>If you alredy Logged in your account Click hear to post a question</h3>
-		<a class="home_link" href="<?php echo site_url()."/question/";?>">Click here to OPST</a>
+		<a class="home_link" href="<?php echo site_url()."/question/";?>">Click here to post a new question</a>
 	</div>
 </div>

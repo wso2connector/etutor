@@ -87,6 +87,7 @@ class Question extends CI_Controller
 			//'sub_category_id' => $this->input->post('sub_category_id'),
 			'subject' =>$this->input->post('subject'),
 			'post' => $this->input->post('post'),
+            'tags' => $this->input->post('tags'),
 			'username' => $this->input->post('username'),
 			'email' => $this->input->post('email'),
 			'usertype' => $this->input->post('usertype')
