@@ -21,14 +21,9 @@ class Search extends CI_Controller {
 
     public function questions()
     {
-        $this->load->model('msearch');
-        if(isset($_GET['id']))
-        {
-            $id = $_GET['id'];
-            $this->data['result'] = $this->msearch->retreive($id);
 
-            //var_dump($this->data['result']);
-        }
+        $this->load->model('msearch');
+        $this->data['search_result'] = $this->msearch->getSearchResults($this->input->post('query'));
         $this->template->write_view('content', 'search', $this->data);
         $this->template->render();
     }

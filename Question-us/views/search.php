@@ -4,39 +4,40 @@
 	<input id="askBtn_h" class="btn" type="submit" value="+Ask Question" name="Submit"></a>
 
 		<?php
-		$attributes = array(
-	    'class' => '',
-        'id' => ''); 
         echo form_open('search/questions');
         ?>
         <div id="search-box">
-       		<input type="text" id="tag" class="form-control contact-input" name ="query" value="" />
-			    <input type="submit" id="askBtn_s" class="btn" value = "Search" />
+        <?php echo form_input(array('id'=>'query','class'=>'form-control contact-input',
+                                    'name'=>'query'));
+              echo form_submit(array('id'=>'askBtn_s','class'=>'btn', 'value'=>'Search')); ?>
 		</div>
-
+    <?php echo form_close(''); ?>
 <div id="qu-table">
 	<h2 id="heading">Search Result</h2>
 
 <table class="stable">
 <?php
-if(isset($result)){
+if(isset($search_result)){
 ?>
     <tbody id="table-body">
       <?php
-      foreach ($result as $row) {
+      $count = count($search_result);
+      $classToBeConvertedToJson = new stdClass();
+      $classToBeConvertedToJson->count = $count;
+      $classToBeConvertedToJson->results = $search_result;
+
+      echo json_encode($classToBeConvertedToJson);
+      /* foreach ($search_result as $row) {
         echo "<tr>";
         echo "<td class='intab'><div id='inner-table-1'><a href=''>".$row['subject']."</a></td>";
         echo "<td class='cmt'><div id='inner-table'><a href=''>".$row['post']."</a></div></td>";
+        echo "<td class='cmt'><div id='inner-table'><a href=''>".$row['tags']."</a></div></td>";
         echo "<td class='subject'><div id='inner-table-2'><a href=''>".$row['username']."</a></td>";
         echo "</tr>";
-      }
+      } */
       ?>
     </tbody>
 <?php   
-}
-else
-{
-  //echo 'no record found';
 }
 ?>
 </table>
@@ -44,5 +45,5 @@ else
 
 </div>
 
-    <?php echo form_close('');?>
+
 </div>

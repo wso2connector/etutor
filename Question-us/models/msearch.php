@@ -25,18 +25,13 @@ class MSearch extends CI_Model
         return $ret;
     }
 
-    function retrieve($qname)
+    function getSearchResults($searchQuery)
     {
         $ret = null;
-        $this->lastMessage = "";
-
-        $sql = "SELECT * FROM questions WHERE MATCH(subject, tags) AGAINST ('{$qname}')";
+        $sql = "SELECT * FROM questions WHERE MATCH(subject) AGAINST('{$searchQuery}') AND MATCH(tags) AGAINST('{$searchQuery}')";
         $query = $this->db->query($sql);
         $ret = $query->result_array();
-        //var_dump($ret);
         return $ret;
     }
 
 }
-
-?>

@@ -19,7 +19,7 @@ if(!isset($form_action)) $form_action = "new";
 		
 			<div class="login">
 				
-					<h1 class="text-center">Log in to your Accout</h1>
+					<h1 class="text-center">Log in to your Account</h1>
 					<?php echo validation_errors(); ?><br><br><br><br>
 				<div id="login_input">
 					<div class="form-group-1">
@@ -39,6 +39,9 @@ if(!isset($form_action)) $form_action = "new";
 		 					<input id="btnLogin" class="btn btn-primary btn-block" type="submit" value="Login" name="Submit">
 		 				</div>
 		 			</div>
+                    <div class="form-group-1">
+                        <?php echo anchor('login/forgotpwd','Forgot Password?'); ?>
+                    </div></br>
 				</div>	
 			</div>
 	</div>
