@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba19c86c-171b-438d-b385-ddcab4bdef04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/add_post_view.php" afterPath="$PROJECT_DIR$/Question-us/views/add_post_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/models/msearch.php" afterPath="$PROJECT_DIR$/Question-us/models/msearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/controllers/question.php" afterPath="$PROJECT_DIR$/Question-us/controllers/question.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/controllers/question_list.php" afterPath="$PROJECT_DIR$/Question-us/controllers/question_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/question_list.php" afterPath="$PROJECT_DIR$/Question-us/views/question_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/question_view.php" afterPath="$PROJECT_DIR$/Question-us/views/question_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/controllers/search.php" afterPath="$PROJECT_DIR$/Question-us/controllers/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/search.php" afterPath="$PROJECT_DIR$/Question-us/views/search.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="etutor.iws" />
@@ -36,7 +29,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="27" selection-start="2063" selection-end="2074" vertical-scroll-proportion="57.416668" vertical-offset="2488" max-vertical-offset="3150">
+            <state line="74" column="27" selection-start="2063" selection-end="2074" vertical-scroll-proportion="0.0" vertical-offset="1332" max-vertical-offset="3780">
               <folding />
             </state>
           </provider>
@@ -45,7 +38,7 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Question-us/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="46" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="5520">
+            <state line="16" column="46" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="6624">
               <folding />
             </state>
           </provider>
@@ -54,7 +47,7 @@
       <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Question-us/controllers/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="74" selection-start="373" selection-end="373" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="735">
+            <state line="16" column="74" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -63,7 +56,7 @@
       <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Question-us/views/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="795">
+            <state line="18" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="954">
               <folding />
             </state>
           </provider>
@@ -72,7 +65,7 @@
       <file leaf-file-name="question_list.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Question-us/views/question_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="71" selection-start="902" selection-end="902" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="435">
+            <state line="15" column="71" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="522">
               <folding />
             </state>
           </provider>
@@ -81,7 +74,7 @@
       <file leaf-file-name="question_list.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Question-us/controllers/question_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="37" selection-start="1645" selection-end="1645" vertical-scroll-proportion="-28.75" vertical-offset="240" max-vertical-offset="1260">
+            <state line="62" column="37" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1512">
               <folding />
             </state>
           </provider>
@@ -90,7 +83,7 @@
       <file leaf-file-name="msearch.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Question-us/models/msearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="518" selection-end="518" vertical-scroll-proportion="0.62116563" vertical-offset="0" max-vertical-offset="705">
+            <state line="17" column="21" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3568147" vertical-offset="73" max-vertical-offset="846">
               <folding />
             </state>
           </provider>
@@ -99,7 +92,7 @@
       <file leaf-file-name="add_post.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Question-us/controllers/add_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="570">
+            <state line="13" column="46" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -108,7 +101,7 @@
       <file leaf-file-name="question.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Question-us/controllers/question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="49" selection-start="2715" selection-end="2715" vertical-scroll-proportion="-55.625" vertical-offset="0" max-vertical-offset="2400">
+            <state line="89" column="49" selection-start="2715" selection-end="2715" vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="2880">
               <folding />
             </state>
           </provider>
@@ -137,20 +130,22 @@
         <option value="$PROJECT_DIR$/Question-us/config/database.php" />
         <option value="$PROJECT_DIR$/Question-us/config/config.php" />
         <option value="$PROJECT_DIR$/Question-us/views/search.php" />
-        <option value="$PROJECT_DIR$/Question-us/models/msearch.php" />
         <option value="$PROJECT_DIR$/Question-us/controllers/search.php" />
         <option value="$PROJECT_DIR$/Question-us/views/add_post_view.php" />
         <option value="$PROJECT_DIR$/Question-us/controllers/question.php" />
         <option value="$PROJECT_DIR$/Question-us/views/question_view.php" />
         <option value="$PROJECT_DIR$/Question-us/views/question_list.php" />
         <option value="$PROJECT_DIR$/Question-us/controllers/question_list.php" />
+        <option value="$PROJECT_DIR$/Question-us/models/msearch.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="55" />
+    <option name="y" value="50" />
+    <option name="width" value="1545" />
+    <option name="height" value="850" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,7 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,6 +243,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,7 +277,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="55" y="50" width="1545" height="850" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -290,7 +285,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26284188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -324,7 +319,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="27" selection-start="2063" selection-end="2074" vertical-scroll-proportion="57.416668" vertical-offset="2488" max-vertical-offset="3150">
+        <state line="74" column="27" selection-start="2063" selection-end="2074" vertical-scroll-proportion="0.0" vertical-offset="1332" max-vertical-offset="3780">
           <folding />
         </state>
       </provider>
@@ -338,16 +333,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/views/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1140">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1140" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/config/database.php">
@@ -357,72 +348,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/views/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="795">
+        <state line="18" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="954">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/controllers/add_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="570">
+        <state line="13" column="46" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="684">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/views/ask_question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/views/add_post_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="107" selection-start="771" selection-end="771" vertical-scroll-proportion="0.43711656" vertical-offset="0" max-vertical-offset="652">
-          <folding />
-        </state>
+        <state line="19" column="107" selection-start="771" selection-end="771" vertical-scroll-proportion="0.43711656" vertical-offset="0" max-vertical-offset="652" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/controllers/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="74" selection-start="373" selection-end="373" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="16" column="74" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/views/question_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="175" selection-start="2801" selection-end="2801" vertical-scroll-proportion="1.4929577" vertical-offset="126" max-vertical-offset="1290">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="72" column="175" selection-start="2801" selection-end="2801" vertical-scroll-proportion="1.4929577" vertical-offset="126" max-vertical-offset="1290" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/controllers/question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="49" selection-start="2715" selection-end="2715" vertical-scroll-proportion="-55.625" vertical-offset="0" max-vertical-offset="2400">
+        <state line="89" column="49" selection-start="2715" selection-end="2715" vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="2880">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/views/question_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="71" selection-start="902" selection-end="902" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="435">
+        <state line="15" column="71" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="522">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/controllers/question_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="37" selection-start="1645" selection-end="1645" vertical-scroll-proportion="-28.75" vertical-offset="240" max-vertical-offset="1260">
+        <state line="62" column="37" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1512">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/models/msearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="518" selection-end="518" vertical-scroll-proportion="0.62116563" vertical-offset="0" max-vertical-offset="705">
+        <state line="17" column="21" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3568147" vertical-offset="73" max-vertical-offset="846">
           <folding />
         </state>
       </provider>

@@ -30,7 +30,7 @@ class MSearch extends CI_Model
         $ret = null;
         $this->lastMessage = "";
 
-        $sql = "SELECT * FROM `questions` WHERE subject LIKE  '%$qname%'";
+        $sql = "SELECT * FROM questions WHERE MATCH(subject, tags) AGAINST ('{$qname}')";
         $query = $this->db->query($sql);
         $ret = $query->result_array();
         //var_dump($ret);
