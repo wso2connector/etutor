@@ -11,40 +11,20 @@ if (!isset($form_action)) $form_action = "new";
     ?>
     <div class="row">
         <div class="col-lg-6">
+            <h1><small>Question</small></h1>
             <table class="table table-bordered table-hover table-striped Membersorter">
                 <tr class="active">
-                    <td><?php echo $row['username']; ?></td>
+                    <td><?php echo $question['username']; ?></td>
                     <td>
-                        <p><?php echo $row['subject']; ?> <br/>
-                            <?php echo $row['post']; ?></p></td>
-                    <td><p><?php echo $row['tags']; ?></p></td>
+                        <p><?php echo $question['subject']; ?> <br/>
+                            <?php echo $question['post']; ?></p></td>
+                    <td><p><?php echo $question['tags']; ?></p></td>
 
                 </tr>
 
             </table>
 
-            <table class="table table-bordered table-hover table-striped Membersorter">
-                <?php
-                foreach ($table_data as $row) {
-                    ?>
-                    <tr class="active">
-                        <td>
-                            <div class="votecard">
-                                <div>
-                                    <em><strong>5</strong><span>Vote</span></em>
-                                </div>
-                            </div>
-                        </td>
-                        <td><?php echo $row['username']; ?></td>
-                        <td>
-                            <p><?php echo $row['subject']; ?> <br/>
-                                <?php echo $row['post']; ?></p></td>
-                        <td><p><?php echo $row['tags']; ?></p></td>
 
-                    </tr>
-                <?php } ?>
-
-            </table>
 
             <?php echo form_open('answer/save', $attributes); ?>
             <div class="form-group">
@@ -66,9 +46,36 @@ if (!isset($form_action)) $form_action = "new";
             <input type="hidden" name="usertype" value="<?php echo $this->session->userdata('usertype'); ?>"/>
             <input id="" type="hidden" class="form-control" name="post" value='<?php echo $id ?>'>
             <input type="hidden" name="form_action" value="new"/>
-            <button type="submit" class="btn btn-default">Submit Answer</button>
+            <button type="submit" class="btn btn-default">Submit Answer</button> <br /> <br />
 
             <?php echo form_close(); ?>
+            <h1><small>Previous Answers</small></h1>
+            <table class="table table-bordered table-hover table-striped Membersorter">
+                <?php
+                if ( isset($table_data) ) {
+                foreach ($table_data as $row) {
+                    ?>
+                    <tr class="active">
+                        <td><?php echo $row['username']; ?></td>
+                        <td>
+                            <p><?php echo $row['answer']; ?> <br/></p>
+                        </td>
+
+                    </tr>
+                <?php }
+                }
+                else { ?>
+                    <tr class="active">
+                        <td><p>Currently, there are no answers for this question.</p></td>
+
+
+                    </tr>
+                <?php }?>
+
+
+
+
+            </table>
         </div>
 
     </div>

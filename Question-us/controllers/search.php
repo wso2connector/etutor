@@ -23,7 +23,7 @@ class Search extends CI_Controller {
     {
 
         $this->load->model('msearch');
-        $this->data['search_result'] = $this->msearch->getSearchResults($this->input->post('query'));
+        $this->data['search_result'] = $this->msearch->getSearchResults($this->input->get('query'));
         $this->template->write_view('content', 'search', $this->data);
         $this->template->render();
     }

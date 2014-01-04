@@ -38,7 +38,7 @@ class Answer extends CI_Controller
 
 
         $id = $_GET['id'];
-        $result = $this->manswer->getList($this->pconfig['per_page'], $this->uri->segment(3), $id);
+        $result = $this->manswer->getList($this->pconfig['per_page'], $this->uri->segment(3), $id);;
 
 
         $this->pconfig['base_url'] = site_url() . '/answer/viewList/';
@@ -51,7 +51,7 @@ class Answer extends CI_Controller
 
         $this->load->model('mquestion');
         $result = $this->mquestion->getname($id);
-        $this->data['name'] = $result['post'];
+        $this->data['question'] = $result;
 
 
         $this->template->write_view('content', 'answer_view', $this->data);
@@ -77,7 +77,7 @@ class Answer extends CI_Controller
 
         $this->form_validation->set_rules('answer', 'Answer', 'required');
 
-        $this->form_validation->set_error_delimiters('<div id="error"><br /><span class="ferror">', '</span></div>');
+        $this->form_validation->set_error_delimiters('<div id="alert-danger"><br />', '</div>');
 
         $form_data = array(
             'post' => $this->input->post('post'),

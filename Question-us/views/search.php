@@ -13,12 +13,15 @@
 <div class="row">
     <div class="col-lg-6">
         <?php
-        echo form_open('search/questions');
+        echo form_open('search/questions',array('method'=>'GET'));
         ?>
         <div class="form-group">
             <?php echo form_input(array('id' => 'query', 'class' => 'form-control contact-input',
                 'name' => 'query'));
-            echo form_submit(array('id' => 'askBtn_s', 'class' => 'btn btn-default', 'value' => 'Search')); ?>
+             ?>
+        </div>
+        <div class="form-group">
+            <?php echo form_submit(array('id' => 'askBtn_s', 'class' => 'btn btn-default', 'value' => 'Search')); ?>
         </div>
         <?php echo form_close(''); ?>
     </div>

@@ -198,11 +198,16 @@
                         else echo anchor('login', 'Login');?>
                         <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                        <li><i class="fa fa-user"></i> <?php
+                                $username = $this->session->userdata('username');
+                                if(isset($username)) {
+                                    echo $username;
+                                }
+                                else echo anchor('login', 'Login');?></li>
                         <li><a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge">7</span></a></li>
                         <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
                         <li class="divider"></li>
-                        <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+                        <li><a href="login/logout"><i class="fa fa-power-off">Log Out</i></a></li>
                     </ul>
                 </li>
             </ul>

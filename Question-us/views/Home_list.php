@@ -21,6 +21,8 @@
                         <p><?php echo $row['subject']; ?> <br/>
                             <?php echo $row['post']; ?></p></td>
                     <td><p><?php echo $row['tags']; ?></p></td>
+                    <td><p><?php echo anchor('answer/?id='.$row['question_id'],
+                                'Answer', array('class'=>'btn btn-primary btn-lg')); ?></p></td>
 
                 </tr>
                         <?php } ?>

@@ -177,14 +177,11 @@ class MQuestion extends CI_Model
     {
 
 
-        $sql = "SELECT *  FROM `questions` WHERE question_id = $qname";
+        $sql = "SELECT *  FROM questions WHERE question_id = '{$qname}'";
 
         $query = $this->db->query($sql);
 
         return array_shift($query->result_array());
-
-        // $row = array_shift($query->result_array());
-        // $this->data['name'] = $row['post'];
     }
 
     function getList($num, $offset)
