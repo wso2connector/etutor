@@ -189,7 +189,13 @@
                     </ul>
                 </li>
                 <li class="dropdown user-dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Nimashi Perera
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>
+                        <?php
+                        $username = $this->session->userdata('username');
+                        if(isset($username)) {
+                            echo $username;
+                        }
+                        else echo anchor('login', 'Login');?>
                         <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>

@@ -48,14 +48,14 @@ class Login extends CI_Controller {
 
 	public function check()
 	{
-            $this->form_validation->set_rules('username', 'User Name', 'required|max_length[50]');
+            $this->form_validation->set_rules('username', 'UserName', 'required|max_length[50]');
             $this->form_validation->set_rules('password', 'Password', 'required|max_length[32]');
 
             $this->form_validation->set_error_delimiters('<br /><span class="ferror-log error-post">', '</span>');
 
             if ($this->form_validation->run() == FALSE) 
             {
-                $this->data['message'] = "Insert your Correct Login details.";
+                $this->data['message'] = "Username or password missing.";
 				//print_r($this->data);
                 $this->viewLogin();
             }
@@ -93,7 +93,7 @@ class Login extends CI_Controller {
                         $message= array(
                             'content' => "invalid user",
                             'type' => 'error' );
-						 $this->data['message'] = "Invalid your Login details.please try again.";
+						$this->data['message'] = "Invalid your Login details.please try again.";
                         
                         $this->viewLogin();
                     }

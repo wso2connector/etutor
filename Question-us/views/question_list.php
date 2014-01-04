@@ -12,6 +12,7 @@
                                 <em><strong>5</strong><span>Vote</span></em>
                             </div>
                         </div>
+                    </td>
                     <td><?php echo $row['username']; ?></td>
                     <td>
                         <p><?php echo $row['subject']; ?> <br/>

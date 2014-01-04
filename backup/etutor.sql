@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 30, 2013 at 04:12 PM
+-- Generation Time: Jan 03, 2014 at 03:27 AM
 -- Server version: 5.1.44
 -- PHP Version: 5.3.1
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `answers` (
   `username` varchar(50) NOT NULL,
   `usertype` varchar(20) NOT NULL,
   PRIMARY KEY (`answer_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=47 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=47 ;
 
 --
 -- Dumping data for table `answers`
@@ -57,7 +57,7 @@ CREATE TABLE IF NOT EXISTS `category` (
   `category_id` int(11) NOT NULL AUTO_INCREMENT,
   `category_name` varchar(50) NOT NULL,
   PRIMARY KEY (`category_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `category`
@@ -83,8 +83,10 @@ CREATE TABLE IF NOT EXISTS `questions` (
   `username` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `usertype` varchar(20) NOT NULL,
-  PRIMARY KEY (`question_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=35 ;
+  PRIMARY KEY (`question_id`),
+  FULLTEXT KEY `subject` (`subject`),
+  FULLTEXT KEY `tags` (`tags`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=35 ;
 
 --
 -- Dumping data for table `questions`
@@ -112,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `email` varchar(32) NOT NULL,
   `usertype` varchar(20) NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
 
 --
 -- Dumping data for table `user`
