@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba19c86c-171b-438d-b385-ddcab4bdef04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/Home_list.php" afterPath="$PROJECT_DIR$/Question-us/views/Home_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/controllers/answer.php" afterPath="$PROJECT_DIR$/Question-us/controllers/answer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/answer_view.php" afterPath="$PROJECT_DIR$/Question-us/views/answer_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/header.php" afterPath="$PROJECT_DIR$/Question-us/views/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/member_list.php" afterPath="$PROJECT_DIR$/Question-us/views/member_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/models/mquestion.php" afterPath="$PROJECT_DIR$/Question-us/models/mquestion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/models/mregister.php" afterPath="$PROJECT_DIR$/Question-us/models/mregister.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/models/msearch.php" afterPath="$PROJECT_DIR$/Question-us/models/msearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/question_list.php" afterPath="$PROJECT_DIR$/Question-us/views/question_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/controllers/register.php" afterPath="$PROJECT_DIR$/Question-us/controllers/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/register_view.php" afterPath="$PROJECT_DIR$/Question-us/views/register_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/controllers/search.php" afterPath="$PROJECT_DIR$/Question-us/controllers/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Question-us/views/search.php" afterPath="$PROJECT_DIR$/Question-us/views/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backup/etutor.sql" afterPath="$PROJECT_DIR$/backup/etutor.sql" />
     </list>
     <ignored path="etutor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,19 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="msearch.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Question-us/models/msearch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="89" selection-start="659" selection-end="659" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_view.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="register_view.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Question-us/views/register_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="681" selection-end="681" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="705">
+            <state line="17" column="53" selection-start="681" selection-end="681" vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -65,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member_list.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="member_list.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Question-us/views/member_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -470,23 +448,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Question-us/models/msearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="89" selection-start="659" selection-end="659" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Question-us/views/login_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="68" selection-start="454" selection-end="1000" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Question-us/views/register_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="681" selection-end="681" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
@@ -550,6 +514,20 @@
     <entry file="file://$PROJECT_DIR$/Question-us/views/member_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question-us/models/msearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.3220859" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Question-us/views/register_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="53" selection-start="681" selection-end="681" vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>

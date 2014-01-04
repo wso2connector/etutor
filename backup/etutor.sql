@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 03, 2014 at 03:27 AM
+-- Generation Time: Jan 04, 2014 at 09:17 PM
 -- Server version: 5.1.44
 -- PHP Version: 5.3.1
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `answers` (
   `username` varchar(50) NOT NULL,
   `usertype` varchar(20) NOT NULL,
   PRIMARY KEY (`answer_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=47 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=48 ;
 
 --
 -- Dumping data for table `answers`
@@ -45,7 +45,8 @@ INSERT INTO `answers` (`answer_id`, `post`, `answer`, `username`, `usertype`) VA
 (43, '23', '$data = mysql_query("SELECT email FROM address ORDER BY email DESC") OR\r\n$data = mysql_query("SELECT * FROM address ORDER BY name ASC") ', 'Tharuka', 'Tutor'),
 (44, '28', 'Human Resource Management (HRM) is the function within an organization that focuses on recruitment of, management of, and providing direction for the people who work in the organization. HRM can also be performed by line', 'Kasun', 'Student'),
 (45, '28', 'HRM is the organizational function that deals with issues related to people such as compensation', 'Kasun', 'Student'),
-(46, '25', 'sddsdsd', 'Kasun', 'Student');
+(46, '25', 'sddsdsd', 'Kasun', 'Student'),
+(47, '36', 'Configure your database for full text search (MyISAM engine). Then you can search as you would do any other CodeIgniter search. ', 'root', 'tutor');
 
 -- --------------------------------------------------------
 
@@ -81,25 +82,25 @@ CREATE TABLE IF NOT EXISTS `questions` (
   `post` text NOT NULL,
   `tags` text NOT NULL,
   `username` varchar(50) NOT NULL,
-  `email` varchar(50) NOT NULL,
   `usertype` varchar(20) NOT NULL,
   PRIMARY KEY (`question_id`),
   FULLTEXT KEY `subject` (`subject`),
   FULLTEXT KEY `tags` (`tags`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=35 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=37 ;
 
 --
 -- Dumping data for table `questions`
 --
 
-INSERT INTO `questions` (`question_id`, `date`, `category_id`, `subject`, `post`, `tags`, `username`, `email`, `usertype`) VALUES
-(25, '2013-11-13', 1, 'php', 'I''m using jQuery raty for a personal website. I have a form and raty generates the following for each set of stars', 'jquery,php,raty', 'Tharuka', 'Tharuka@gmail.com', 'Tutor'),
-(26, '2013-11-13', 1, 'Wordpress', 'Shareaholic | share buttons & related posts', 'wordpress,php,shareaholic', 'Kasun', 'Kasun@gmail.com', 'Student'),
-(27, '2013-11-13', 1, 'SQL', 'How do I order MySQL data?:', 'mysql', 'Kasun', 'Kasun@gmail.com', 'Student'),
-(28, '2013-11-13', 2, 'HRM', 'What Is Human Resource Management?', 'hrm', 'Tharuka', 'Tharuka@gmail.com', 'Tutor'),
-(29, '2013-11-13', 2, 'SQL', 'How to connect mysql database', 'mysql', 'Kasun', 'Kasun@gmail.com', 'Student'),
-(33, '0000-00-00', 2, 'Help with Project Management', 'I need some help with the Project Management course', 'project management', 'Root', 'Rasade88@gmail.com', 'Tutor'),
-(34, '0000-00-00', 1, 'Serialize Java object using GSON', 'Hi, I''m using the GSON library to serialise Java objects in to JSON strings. I need help defining a new adapter for a class.', 'java, json, gson', 'Root', 'Rasade88@gmail.com', 'Tutor');
+INSERT INTO `questions` (`question_id`, `date`, `category_id`, `subject`, `post`, `tags`, `username`, `usertype`) VALUES
+(25, '2013-11-13', 1, 'php', 'I''m using jQuery raty for a personal website. I have a form and raty generates the following for each set of stars', 'jquery,php,raty', 'Tharuka', 'Tutor'),
+(26, '2013-11-13', 1, 'Wordpress', 'Shareaholic | share buttons & related posts', 'wordpress,php,shareaholic', 'Kasun', 'Student'),
+(27, '2013-11-13', 1, 'SQL', 'How do I order MySQL data?:', 'mysql', 'Kasun', 'Student'),
+(28, '2013-11-13', 2, 'HRM', 'What Is Human Resource Management?', 'hrm', 'Tharuka', 'Tutor'),
+(29, '2013-11-13', 2, 'SQL', 'How to connect mysql database', 'mysql', 'Kasun', 'Student'),
+(33, '0000-00-00', 2, 'Help with Project Management', 'I need some help with the Project Management course', 'project management', 'Root', 'Tutor'),
+(34, '0000-00-00', 1, 'Serialize Java object using GSON', 'Hi, I''m using the GSON library to serialise Java objects in to JSON strings. I need help defining a new adapter for a class.', 'java, json, gson', 'Root', 'Tutor'),
+(36, '2014-01-04', 1, 'Search using CodeIgniter', 'How do I run a full text search in CodeIgniter?', 'codeigniter,fulltext', 'root', 'tutor');
 
 -- --------------------------------------------------------
 
@@ -114,7 +115,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `email` varchar(32) NOT NULL,
   `usertype` varchar(20) NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
 
 --
 -- Dumping data for table `user`
@@ -124,4 +125,5 @@ INSERT INTO `user` (`user_id`, `username`, `password`, `email`, `usertype`) VALU
 (9, 'kasun', '05e60b40ce21b0416ff2d186a3fe4c21', 'kasun@gmail.com', 'student'),
 (13, 'sanath', '173f8c9e191df4966a18b3c13df6d284', 'sanath@gmail.com', 'tutor'),
 (14, 'tharuka', 'c8005651f1870339455e430ec3aba72c', 'tharuka@gmail.com', 'tutor'),
-(15, 'root', '202cb962ac59075b964b07152d234b70', 'rasade88@gmail.com', 'tutor');
+(15, 'root', '202cb962ac59075b964b07152d234b70', 'rasade88@gmail.com', 'tutor'),
+(16, 'lota', '9622ff0a969c5d70c82d51d4b9c99512', 'lota@lota.com', 'student');
